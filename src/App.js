@@ -13,6 +13,9 @@ const App = () => {
         <Header />
         <Hero/>
         <div className="container">
+            <Button color="secondary" size="large" dashed="false" disabled="false" ghost="false" icon="round">
+                <div>&#x1F50D;</div>
+            </Button>
 
             <MoviesContainer />
         </div>

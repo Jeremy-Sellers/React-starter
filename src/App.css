@@ -7,3 +7,16 @@
     min-height: 100dvh;
 }
 
+.dashed{
+    border: 2px dashed;
+}
+
+.round-icon{
+    border-radius: 100%
+}
+.square-icon{
+    --bs-btn-border-radius:0;
+}
+
+
+
